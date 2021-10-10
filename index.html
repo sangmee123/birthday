@@ -2,30 +2,51 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>생축</title>
-    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <title>생 축</title>
+  
     <style>
+        @font-face {
+            font-family: 'Dongle-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108_2@1.0/Dongle-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'HeirofLightBold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
         #text1 {
-            font-family: 'Stylish', sans-serif;
+            font-family: 'Dongle-Regular';
             font-size: 250px;
             text-align: center;
         }
 
         #text2 {
-            font-family: 'Stylish', sans-serif;
+            font-family: 'Dongle-Regular';
             font-size: 200px;
             text-align: center;
         }
 
-        #giftBox {
-            display: block;
-            margin: auto;
+        #helper {
+            display: inline-block;
+            width: 500px;
+        }
+
+        #giftBox:hover {
+            transform: scale(1.25);
         }
 
         #guide {
+            font-family: 'HeirofLightBold';
+            font-size: 30px;
             margin: auto;
             text-align: center;
-            margin-bottom: 50px;
+            margin-top: 30px;
+            margin-bottom: 60px;
         }
 
     </style>
@@ -33,9 +54,11 @@
 
 <body>
     <div id="text1">형 생일</div>
-    <div id="text2">ㅊㅋㅊㅋ</div>
-    <img id="giftBox" src="images/premium-icon-gift-box-2575399.png" width="250">
+    <div id="text2">추카추카추카</div>
+    
+    <div id="helper"></div><a href="select.html"><img id="giftBox" src="images/premium-icon-gift-box-2575399.png" width="250"></a>
     <div id="guide">생일 선물을 받고 싶으면 누르시오.</div>
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
     crossorigin="anonymous"></script>
