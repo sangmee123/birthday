@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(248, 246, 237);
+}   
+
+@font-face {
+    font-family: 'Dongle-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108_2@1.0/Dongle-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#text1 {
+    font-family: 'Dongle-Regular';
+    font-size: 250px;
+    line-height: 200px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#text2 {
+    font-family: 'Dongle-Regular';
+    font-size: 200px;
+    line-height: 230px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#helper {
+    text-align: center;
+}
+
+#giftBox:hover {
+    transform: scale(1.33);
+}
+
+#guide {
+    font-family: 'HeirofLightBold';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+@media(max-width: 768px) {
+    #text1 {
+        margin-top: 250px;
+    }    
+}

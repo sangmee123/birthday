@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin-top: 450px;
+    background-color: #eee;
+}
+
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#guide {
+    font-family: 'HeirofLightBold';
+    font-size: 30px;
+    color: rgb(81, 98, 114);
+    margin-bottom: 50px;
+}
+
+#gift_guide {
+    font-family: 'HeirofLightBold';
+    font-size: 20px;
+    color: rgb(36, 45, 54);
+}
+
+#one {
+    margin-right: 20px;
+}
+
+#two {
+    margin-left: 20px;
+}

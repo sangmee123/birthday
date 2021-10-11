@@ -3,38 +3,22 @@
 <head>
     <meta charset="utf-8">
     <title>생일 선물</title>
-    <style>
-        body {
-            text-align: center;
-            margin-top: 300px;
-            background-color: #eee;
-        }
-
-        #one {
-            margin-right: 20px;
-        }
-
-        #two {
-            margin-left: 20px;
-        }
-
-        @media(max-width: 768px) {
-            body { margin-top: 900px; }
-        }
-    </style>
+    <link href="css/select.css" rel="stylesheet">
 </head>
 
 <body>
     <div>
+        <div id="guide">선물 클릭하기(2개의 선물)</div>
+        <div id="gift_guide">기프티콘 이미지 클릭시 원상태로 돌아옴</div>
         <img id="one" src="images/gift1.png" width="250">
         <img id="gs25" src="images/gs25.jpg" width="60%">
-        
+
         <img id="two" src="images/gift2.png" width="250">
     </div>
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
     crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="select.js"></script>
 </body>
 </html>
