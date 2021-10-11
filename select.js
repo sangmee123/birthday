@@ -12,4 +12,5 @@ $('#gs25').on('click', function() {
     $('#one').show();
     $('#two').show();
     $('#gs25').hide();
+    $('#gift_guide').hide();
 })
