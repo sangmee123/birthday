@@ -3,12 +3,38 @@
 <head>
     <meta charset="utf-8">
     <title>생일 선물</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 300px;
+            background-color: #eee;
+        }
+
+        #one {
+            margin-right: 20px;
+        }
+
+        #two {
+            margin-left: 20px;
+        }
+
+        @media(max-width: 768px) {
+            body { margin-top: 500px; }
+        }
+    </style>
 </head>
 
 <body>
     <div>
-        <img src="images/premium-icon-gift-box-3683093.png" width="100">
-        <img src="images/premium-icon-gift-box-3683802.png" width="100">
+        <img id="one" src="images/gift1.png" width="200">
+        <img id="gs25" src="images/gs25.jpg" width="50%">
+        
+        <img id="two" src="images/gift2.png" width="200">
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
