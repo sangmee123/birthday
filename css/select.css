@@ -15,7 +15,7 @@ body {
     margin-bottom: 200px;
 }
 
-form { height: 150px; }
+form { height: 130px; }
 
 input {
     height: 30px;
@@ -32,7 +32,7 @@ input {
 
 .sub {
     width: 80px;
-    height: 30px;
+    height: 36px;
     vertical-align: middle;
     border-radius: 7px;
     border: none;
@@ -51,10 +51,6 @@ input {
     margin-bottom: 50px;
 }
 
-#one {
-    margin-right: 20px;
-}
+#one { margin-right: 30px; }
 
-#two {
-    margin-left: 20px;
-}
+#two { margin-left: 30px; }
