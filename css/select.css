@@ -33,6 +33,7 @@ input {
     border-radius: 7px;
     border: none;
     background-color: rgb(145, 190, 228);
+    font-size: 20px;
 }
 .sub.cafe { background-color: goldenrod; }
 
