@@ -11,6 +11,10 @@ body {
     font-style: normal;
 }
 
+.top {
+    margin-bottom: 200px;
+}
+
 form { height: 150px; }
 
 input {
@@ -45,12 +49,6 @@ input {
     font-size: 30px;
     color: rgb(81, 98, 114);
     margin-bottom: 50px;
-}
-
-#gift_guide {
-    font-family: 'HeirofLightBold';
-    font-size: 20px;
-    color: rgb(36, 45, 54);
 }
 
 #one {
