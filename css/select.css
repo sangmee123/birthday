@@ -11,19 +11,34 @@ body {
     font-style: normal;
 }
 
+form { height: 150px; }
+
+input {
+    height: 30px;
+    width: 200px;
+    vertical-align: middle;
+}
+
 #pwd {
+    font-size: 30px;
     background-color: transparent;
     border: 1.5px solid gray;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
-#sub {
-    width: 50px;
+.sub {
+    width: 80px;
+    height: 30px;
+    vertical-align: middle;
     border-radius: 7px;
-    border: 0.8px solid gray(34, 178, 178);
-    background-color: rgb(209, 202, 202);
+    border: none;
+    background-color: rgb(145, 190, 228);
 }
+.sub.cafe { background-color: goldenrod; }
 
+.sub:hover {
+    border: 1.5px solid rgb(22, 43, 38);
+}
 #guide {
     font-family: 'HeirofLightBold';
     font-size: 30px;
