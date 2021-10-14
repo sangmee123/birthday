@@ -11,6 +11,19 @@ body {
     font-style: normal;
 }
 
+#pwd {
+    background-color: transparent;
+    border: 1.5px solid gray;
+    border-radius: 2px;
+}
+
+#sub {
+    width: 50px;
+    border-radius: 7px;
+    border: 0.8px solid gray(34, 178, 178);
+    background-color: rgb(209, 202, 202);
+}
+
 #guide {
     font-family: 'HeirofLightBold';
     font-size: 30px;
